@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import NoteForm from "../notes/NoteForm";
 
 class Landing extends Component {
   render() {
@@ -13,17 +14,7 @@ class Landing extends Component {
                   memoirs, passwords, living wills, and other sensitive data.{" "}
                 </p>
 
-                <form>
-                  <div className="form-group">
-                    <textarea
-                      className="form-control form-control-lg textbox-custom"
-                      placeholder="Create a post"
-                    />
-                  </div>
-                  <button type="submit" className="btn btn-custom">
-                    Submit
-                  </button>
-                </form>
+                <NoteForm />
               </div>
               <div className="col-md-4 right">
                 <h2 className="header-custom">notes</h2>
