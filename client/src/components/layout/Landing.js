@@ -16,7 +16,7 @@ class Landing extends Component {
                 <form>
                   <div className="form-group">
                     <textarea
-                      className="form-control form-control-lg"
+                      className="form-control form-control-lg textbox-custom"
                       placeholder="Create a post"
                     />
                   </div>
@@ -26,7 +26,7 @@ class Landing extends Component {
                 </form>
               </div>
               <div className="col-md-4 right">
-                <h2 className="header-custom">your notes</h2>
+                <h2 className="header-custom">notes</h2>
                 <p>
                   personal notes <i className="fas fa-key btn-key" />{" "}
                   <i className="fas fa-times-circle btn-del" />

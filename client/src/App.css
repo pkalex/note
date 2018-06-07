@@ -2,6 +2,7 @@ p {
   font-family: "Muli";
   text-shadow: 2px 1px #1b3440;
 }
+
 .landing {
   position: relative;
   background-color: #4a849f;
@@ -44,11 +45,16 @@ p {
   font-family: "Philosopher";
   text-shadow: 2px 1px #1b3440;
 }
+.textbox-custom {
+  box-shadow: 2px 1px #1b3440;
+  border: 0px;
+}
 
 .btn-custom {
   background-color: #fff;
-  border: 1px solid #ced4da;
+  border: 0px;
   color: #919191;
+  box-shadow: 2px 1px #1b3440;
 }
 
 .btn-key {
