@@ -1,5 +1,6 @@
 p {
   font-family: "Muli";
+  text-shadow: 2px 1px #1b3440;
 }
 .landing {
   position: relative;
@@ -41,6 +42,7 @@ p {
 .header-custom {
   color: #f5f1d5;
   font-family: "Philosopher";
+  text-shadow: 2px 1px #1b3440;
 }
 
 .btn-custom {
