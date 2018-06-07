@@ -25,8 +25,8 @@ class Landing extends Component {
                   </button>
                 </form>
               </div>
-              <div className="col-md-4">
-                <h2>your notes</h2>
+              <div className="col-md-4 right">
+                <h2 className="header-custom">your notes</h2>
                 <p>personal notes</p>
                 <p>passwords</p>
                 <p>numbers</p>

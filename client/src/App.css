@@ -1,3 +1,6 @@
+p {
+  font-family: "Muli";
+}
 .landing {
   position: relative;
   background-color: #4a849f;
@@ -27,4 +30,18 @@
 
 .bg-custom {
   background-color: #1b3440;
+}
+.nav-custom {
+  color: #f5f6fa;
+  font-family: "Philosopher";
+}
+.nav-custom:hover {
+  color: #f5f1d5;
+}
+.header-custom {
+  font-family: "Philosopher";
+}
+
+.right {
+  text-align: right;
 }
