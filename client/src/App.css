@@ -32,14 +32,21 @@ p {
   background-color: #1b3440;
 }
 .nav-custom {
-  color: #f5f6fa;
+  color: #f5f1d5;
   font-family: "Philosopher";
 }
 .nav-custom:hover {
-  color: #f5f1d5;
+  color: #fff;
 }
 .header-custom {
+  color: #f5f1d5;
   font-family: "Philosopher";
+}
+
+.btn-custom {
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  color: #919191;
 }
 
 .right {

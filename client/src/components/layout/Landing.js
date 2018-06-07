@@ -20,7 +20,7 @@ class Landing extends Component {
                       placeholder="Create a post"
                     />
                   </div>
-                  <button type="submit" className="btn btn-dark">
+                  <button type="submit" className="btn btn-custom">
                     Submit
                   </button>
                 </form>
@@ -30,11 +30,6 @@ class Landing extends Component {
                 <p>personal notes</p>
                 <p>passwords</p>
                 <p>numbers</p>
-                <p>
-                  <a className="btn btn-secondary" href="#" role="button">
-                    View details &raquo;
-                  </a>
-                </p>
               </div>
             </div>
           </div>
