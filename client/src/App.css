@@ -49,6 +49,12 @@ p {
   color: #919191;
 }
 
+.btn-key {
+  color: #fbc531;
+}
+.btn-del {
+  color: #f2845c;
+}
 .right {
   text-align: right;
 }

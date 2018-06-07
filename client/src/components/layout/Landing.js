@@ -27,9 +27,18 @@ class Landing extends Component {
               </div>
               <div className="col-md-4 right">
                 <h2 className="header-custom">your notes</h2>
-                <p>personal notes</p>
-                <p>passwords</p>
-                <p>numbers</p>
+                <p>
+                  personal notes <i className="fas fa-key btn-key" />{" "}
+                  <i className="fas fa-times-circle btn-del" />
+                </p>
+                <p>
+                  passwords <i className="fas fa-key btn-key" />{" "}
+                  <i className="fas fa-times-circle btn-del" />
+                </p>
+                <p>
+                  numbers <i className="fas fa-key btn-key" />{" "}
+                  <i className="fas fa-times-circle btn-del" />
+                </p>
               </div>
             </div>
           </div>
