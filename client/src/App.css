@@ -1,18 +1,19 @@
 p {
   font-family: "Muli";
   text-shadow: 2px 1px #1b3440;
+  color: #fff;
 }
 
-.landing {
-  position: relative;
-  background-color: #4a849f;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  margin-top: -24px;
-  margin-bottom: -50px;
+body {
+  background: #4a849f !important;
 }
-
+h1,
+h2,
+h3 {
+  color: #f5f1d5;
+  font-family: "Philosopher";
+  text-shadow: 2px 1px #1b3440;
+}
 .landing-inner {
   padding-top: 80px;
 }
@@ -40,11 +41,7 @@ p {
 .nav-custom:hover {
   color: #fff;
 }
-.header-custom {
-  color: #f5f1d5;
-  font-family: "Philosopher";
-  text-shadow: 2px 1px #1b3440;
-}
+
 .textbox-custom {
   box-shadow: 2px 1px #1b3440;
   border: 0px;
@@ -65,4 +62,9 @@ p {
 }
 .right {
   text-align: right;
+}
+
+.form-text {
+  color: white;
+  text-shadow: 2px 1px 0px rgba(27, 52, 64, 0.5);
 }

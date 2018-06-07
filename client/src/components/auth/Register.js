@@ -89,7 +89,7 @@ class Register extends Component {
                   {errors.email && (
                     <div className="invalid-feedback">{errors.email}</div>
                   )}
-                  <small className="form-text text-muted">
+                  <small className="form-text">
                     This site uses Gravatar so if you want a profile image, use
                     a Gravatar email
                   </small>
